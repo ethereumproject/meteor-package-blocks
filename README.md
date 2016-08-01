@@ -66,6 +66,3 @@ If you want to do that manually call:
 ```js
 EthBlocks.clear();
 ```
-
-
-

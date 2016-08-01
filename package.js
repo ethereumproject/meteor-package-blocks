@@ -2,7 +2,7 @@ Package.describe({
   name: 'ethereum:blocks',
   summary: 'Provides informations about the current and last 50 blocks',
   version: '0.3.1',
-  git: 'http://github.com/ethereum/meteor-package-blocks'
+  git: 'http://github.com/ethereumproject/meteor-package-blocks'
 });
 
 Package.onUse(function(api) {
@@ -23,4 +23,3 @@ Package.onUse(function(api) {
 //   api.use('ethereum:blocks');
 //   api.addFiles('blocks-tests.js');
 // });
-
