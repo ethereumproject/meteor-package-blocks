@@ -20,6 +20,6 @@ Package.onUse(function(api) {
 
 // Package.onTest(function(api) {
 //   api.use('tinytest');
-//   api.use('ethereum:blocks');
+//   api.use('etc:blocks');
 //   api.addFiles('blocks-tests.js');
 // });
