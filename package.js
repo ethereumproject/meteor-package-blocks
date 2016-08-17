@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'etc:blocks',
+  name: 'ethereumclassic:blocks',
   summary: 'Provides informations about the current and last 50 blocks',
   version: '0.3.1',
   git: 'http://github.com/ethereumproject/meteor-package-blocks'
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use('mongo', ['client', 'server']);
 
   // api.use('frozeman:persistent-minimongo@0.1.3', 'client');
-  api.use('etc:web3@0.15.1', ['client', 'server']);
+  api.use('ethereumclassic:web3@0.15.1', ['client', 'server']);
 
   api.export(['EthBlocks'], ['client', 'server']);
 
