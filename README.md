@@ -6,7 +6,7 @@ You can query blocks like any other Meteor collection.
 
 ## Installation
 
-    $ meteor add ethereum:blocks
+    $ meteor add ethereumclassic:blocks
 
 ## Usage
 
